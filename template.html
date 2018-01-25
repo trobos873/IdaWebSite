@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Created by Oskar Berglund-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title"></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <script src="script/script.js"></script>
+</head>
+<body>
+<iframe id="globalInfo" src="text/globalText.txt" onload="globalInfo()" style="display: none;"></iframe>
+<iframe id="loadWork" src="text/work.txt" onload="loadWork()" style="display: none;"></iframe>
+<div class="mainOuter">
+    <div class="banner" id="banner">
+        <h1 class="banner" id="bannerH1"><content id="bannerText"></content></h1>
+        <img style="margin: auto; display: block;" width="300" height="100" src="img/logo.png">
+    </div>
+    <div class="mainInner" id="main">
+            <div class="boxInner" style="padding: 0px" id="menu">
+                <ul class="menu">
+                    <li class="menuitem"><a class="active" href="index.html">Recent work</a></li>
+                    <li class="menuitem"><a href="breakdown.html">Breakdowns</a></li>
+                    <li class="menuitem"><a href="cv.html">CV</a></li>
+                    <li class="menuitem"><a href="about.html">About me</a></li>
+                </ul>
+            </div>
+        <content id="contentContainer"></content>
+        <div class="boxOuter">
+            <div class ="boxOuter" id="bottomBanner" style="margin:auto; overflow: hidden; width: 100%; background-color: #333333; color: darkgrey;">
+                <div class="bottomBanner" style="float:left;" id="aboutme">
+                    <h2>About me.</h2>
+                    <hr>
+                    <content id="aboutmeText"></content>
+                </div>
+                <div class="bottomBanner" style="overflow: hidden;" id="contact">
+                    <h2>Contact.</h2>
+                    <hr>
+                    <content id="yourName"></content><br>
+                    <content id="phoneNumber"></content><br>
+                    <content id="email"></content>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div style=" text-align: center; float: bottom; color: black; margin-bottom: 0px; padding: 20px"><content id="copyrightText"></content></div>
+    <input onclick="topFunction()" id="myBtn" type="image" src="img/backtotop-1.png" />
+</div>
+
+</body>
+</html>

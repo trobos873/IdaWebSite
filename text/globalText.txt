@@ -1,0 +1,7 @@
+## MUST CONTAIN: "_TITLE::", "_ABOUTME::", "_YOURNAME::", "_EMAIL::", "_PHONE::", "_COPYRIGHT::". Just fill out with no space between :: and text. Ex: "_TITLE::Oskar Berglund".
+_TITLE::
+_ABOUTME::Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nisi arcu, ultrices a turpis convallis, bibendum ullamcorper erat. Vivamus laoreet lacus vitae ligula tincidunt feugiat. Aliquam faucibus luctus nunc, eget commodo felis maximus congue. Donec viverra, nulla in hendrerit maximus, enim ante tempor nisi, ac feugiat tortor urna ac orci. Curabitur auctor velit sed purus sodales molestie.
+_YOURNAME::Ida Edlund
+_EMAIL::Oskar@edlund.com
+_PHONE::+46703852488
+_COPYRIGHT::© 2018 Ida Edlund - All rights reserved
